@@ -4,7 +4,7 @@ public class CarroApp {
     public static void main(String[] args) {
         Scanner sc = new Scanner (System.in);
 
-        Carro c = new Carro (null, null, 0);
+        Moto c = new Moto (null, null, 0);
 
         System.out.println("Informe a marca: ");
         c.setMarca(sc.nextLine());
