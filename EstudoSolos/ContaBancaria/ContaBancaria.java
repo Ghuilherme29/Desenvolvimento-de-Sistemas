@@ -30,8 +30,8 @@ public class ContaBancaria {
            // Método para exibir o saldo
            public void exibirSaldo() {
             System.out.println("---------------------------------");
-            System.out.println("Titular" + titular);
-            System.out.println("Saldo atual-" + saldo);
+            System.out.println("Titular: " + titular);
+            System.out.println("Saldo atual: " + saldo);
             System.out.println("---------------------------------");
            }
            
