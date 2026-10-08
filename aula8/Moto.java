@@ -1,3 +1,5 @@
+import Diversao.Veiculo;
+
 class Moto extends Veiculo {
     private int cilindrada;
 

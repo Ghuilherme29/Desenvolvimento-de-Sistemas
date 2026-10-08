@@ -1,3 +1,5 @@
+import Diversao.Veiculo;
+
 public class Carro extends Veiculo {
     private int qtdPortas;
 

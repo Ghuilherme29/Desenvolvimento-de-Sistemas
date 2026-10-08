@@ -9,7 +9,7 @@ public class Main {
             String nome = sc.nextLine();
 
             Cliente cliente = new Cliente (nome);
-            .mostrarDados();
+            mostrarDados();
 
             System.out.println("Informe o nome do produto: ");
             String produto = sc.nextLine();

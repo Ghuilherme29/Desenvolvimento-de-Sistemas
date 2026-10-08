@@ -1,13 +1,17 @@
-public class Ex02 {
+public class Ex2 {
+
     public static void main(String[] args) {
         int [] numeros = {10, 20, 30};
 
         try {
             System.out.println(numeros[2]);
-        } catch (ArrayIndexOutOfBoundsException e){
+        } catch (ArrayIndexOutOfBoundsException e) {
             System.out.println("Erro: Indice fora do limite");
         } finally {
-            System.err.println("Fim do programa");
+            System.err.println("Finalizando");
         }
-    }
+
+
+    
+}
 }

@@ -1,22 +1,28 @@
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class Ex03 {
+public class Ex3 {
+
     public static void main(String[] args) {
-        Scanner sc = new Scanner (System.in);
+        Scanner sc = new Scanner(System.in);
 
         try {
             System.out.println("Informe um número inteiro: ");
             int numero = sc.nextInt();
-            System.out.println("Você digito: " + numero);
+            System.out.println("Você informou: " + numero);
         } catch (InputMismatchException e) {
-            System.out.println("Erro: Você deve digitar um número inteiro");
-        } finally {
-            System.out.println("");
+            System.out.println("Erro: Não é um número inteiro");
         }
 
 
 
-        sc.close();
-    }
+
+
+
+
+
+    
+    sc.close();
+    
+}
 }

@@ -21,7 +21,7 @@ public class Main {
         // Operação de Depósito
         System.out.println("Digite o valor que deseja depositar: R$ ");
         double valorSaque = sc.nextDouble();
-        minhaCOnta.sacar(valorSaque);
+        minhaConta.sacar(valorSaque);
        
 
 

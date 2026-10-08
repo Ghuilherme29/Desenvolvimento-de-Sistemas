@@ -1,3 +1,5 @@
+import Diversao.Carro;
+
 public class VeiculoApp {
     public static void main(String[] args) {
         Carro meuCarro = new Carro("Toyota", 2022, 4);
