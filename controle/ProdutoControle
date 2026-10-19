@@ -1,0 +1,31 @@
+package controle;
+
+import java.util.ArrayList;
+import dao.ProdutoDao;
+import modelo.Produto;
+
+public class ProdutoControle {
+    private ProdutoDao dao;
+
+    public ProdutoControle () {
+        dao = new ProdutoDao();
+    }
+
+    public void cadastrar (int id,String nome, int preco, String categoria, int quantidade_estoque) {
+        
+        Produto produto = new Produto (id, nome, preco, categoria,quantidade_estoque);
+        dao.cadastrar_produto(produto);
+    }
+    
+    public ArrayList<Produto> listarProduto () {
+        return dao.listarProduto();
+    }
+
+    public booelan alterar (int id, String nome, String categoria, int quantidade_estoque) {
+        return dao.alterar(id, nome, categoria, quantidade_estoque);
+    }
+
+    public booelan remover (int id) {
+        return dao.remover(id);
+    }
+}
